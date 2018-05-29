@@ -12,7 +12,7 @@ def long_planeteer_calls(calls)
   calls.any? {|call| call.length > 4}
 end
 
-def find_the_cheese(array)
+def find_the_cheese(foods)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find {|cheese| cheese_types.include?(cheese)}
+  foods.find {|cheese| cheese_types.include?(cheese)}
 end
